@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-color: #3e5151;
+    background-color: #071111;
 }
 
 #app {
@@ -14,7 +14,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #d3c29e;
+    color: #f5a700;
 }
 
 .loader {
@@ -78,11 +78,11 @@ a {
 
 .navbar-container a {
     font-weight: bold;
-    color: #d3c29e;
+    color: #635433;
 }
 
 .navbar-container a.router-link-exact-active {
-    color: #9d4a81;
+    color: #ffd900;
 
 }
 
@@ -103,7 +103,7 @@ a {
     width: 60px;
     background-color: black;
     border-style: solid;
-    border-color: darkslategray;
+    border-color: #635433;
     border-radius: 5px;
 }
 
