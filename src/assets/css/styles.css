@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,700;1,9..40,400&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -6,15 +8,21 @@ html, body {
 }
 
 body {
-    background-color: #071111;
+    background-color: #06141b;
+    font-family: 'DM Sans', sans-serif;
+    color: #ccd0cf;
+}
+
+.container {
+    margin: 0 10px 0 10px;
 }
 
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    /* font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #f5a700;
+    color: #f5a700; */
 }
 
 .loader {
@@ -26,7 +34,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: #333333;
+    background: #06141b;
     transition: opacity 0.75s, visibility 0.75s;
 }
  .loader::after {
@@ -34,7 +42,7 @@ body {
     width: 75px;
     height: 75px;
     border: 5px solid #dddddd;
-    border-top-color: red;
+    border-top-color: #4a5cba;
     border-radius: 50%;
     animation: loading 1s ease infinite;
 }
@@ -52,7 +60,7 @@ body {
 /* ==BEGIN-FONTS== */
 
 h1 {
-
+    margin: 0;
 }
 
 /* ==END-FONTS== */
@@ -70,7 +78,7 @@ a {
     display: flex;
     height: 64px;
     margin-bottom: 30px;
-    border-right: #d3c29e;
+    border-color: #9ba8ab;
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
@@ -78,11 +86,11 @@ a {
 
 .navbar-container a {
     font-weight: bold;
-    color: #635433;
+    color: #273745;
 }
 
 .navbar-container a.router-link-exact-active {
-    color: #ffd900;
+    color: #ccd0cf;
 
 }
 
@@ -103,7 +111,7 @@ a {
     width: 60px;
     background-color: black;
     border-style: solid;
-    border-color: #635433;
+    border-color: #273745;
     border-radius: 5px;
 }
 
