@@ -6,6 +6,7 @@ html, body {
     padding: 0;
     width: 100%;
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 body {
@@ -84,11 +85,14 @@ a {
 .navbar-container {
     display: flex;
     height: 64px;
-    margin-bottom: 30px;
+    width: 100%;
+    margin: 0 0 30px 0;
     border-color: #9ba8ab;
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
+    position: fixed;
+    top: 0
 }
 
 .navbar-container a {

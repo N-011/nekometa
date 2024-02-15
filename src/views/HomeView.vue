@@ -1,7 +1,13 @@
 <template>
   <div class="home">
-    <img class="background-image" src="../assets/img/black-background.jpg" />
-    <h1 class="main-heading accent-font">// hyperlinke</h1>
+    <div class="background-container">
+      <img class="background-image" src="../assets/img/caloguitar.jpeg" />
+    </div>
+    <div class="main-heading">
+      <h4 class="accent-font small-heading">me?</h4>
+      <h1 class="accent-font big-heading">// hyperlinke</h1>
+    </div>
+    <div class="floating-box"></div>
 
     <!-- <img alt="Vue logo" src="../assets/img/logo.png" /> -->
     <!-- <div class="background">
@@ -26,33 +32,33 @@ export default {
 </script>
 
 <style>
-.background-image {
+.background-container {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   z-index: -1;
 }
 
-.background {
-  background: url(../assets/img/noah_back.JPG);
-  background-repeat: no-repeat;
-  background-clip: content-box;
-  background-size: cover;
-  background-position-y: -300px;
-  /* backdrop-filter: blur(8px); */
-  height: 500px;
+.background-image {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  margin: -150px 0 0 0;
+  filter: blur(50px);
 }
 
 .main-heading {
-  font-size: 4rem;
   margin: 130px 0px 0px 100px;
+}
+
+.main-heading > .small-heading {
+  font-size: 1.7rem;
+  margin: 0 0 -7px 65px;
+  color: #ccd0cf55;
+}
+
+.main-heading > .big-heading {
+  font-size: 4rem;
 }
 
 .header-text {
@@ -79,5 +85,14 @@ export default {
   height: 100%;
   width: 100%;
   border-radius: 8px;
+}
+
+.floating-box {
+  width: 90%;
+  height: 200px;
+  background-color: rgba(128, 128, 128, 0.052);
+  margin: 200px auto 0 auto;
+  border-radius: 100px;
+  box-shadow: 0px 0px 70px 10px rgba(0, 0, 0, 0.75);
 }
 </style>
